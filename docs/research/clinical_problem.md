@@ -13,6 +13,13 @@ As epidemias sazonais de dengue representam um dos maiores desafios de triagem n
 - Variáveis clínicas indicadas: Sintomas febris iniciais, presença de mialgia, cefaleia, histórico de contaminações anteriores, hemograma (contagem de plaquetas) e teste de fragilidade capilar (prova do laço).
 - Objetivo da modelagem: Estimar a probabilidade estatística de evolução para dengue grave a partir dos dados do atendimento inicial.
 
+### Predição de Gravidade e Necessidade de UTI em Casos de SRAG
+A sobrecarga nas emergências durante surtos de síndromes respiratórias exige decisões ágeis para a alocação de recursos críticos e suporte ventilatório.
+- Contexto epidemiológico: A triagem rápida nos prontos-socorros é essencial para estratificar pacientes com risco de insuficiência respiratória, reduzindo a mortalidade e otimizando a ocupação de leitos de terapia intensiva.
+- Base de investigação: Registros de notificação do SIVEP-Gripe (OpenDataSUS), com foco na série histórica de 2019 a 2026.
+- Variáveis clínicas indicadas: Idade, saturação de oxigênio (SpO2), sinais de alerta (dispneia, febre) e presença de comorbidades prévias (obesidade, cardiopatias, diabetes).
+- Objetivo da modelagem: Prever a probabilidade clínica de evolução para insuficiência respiratória grave e a necessidade de internação em UTI a partir dos dados do atendimento inicial.
+
 ### Estratificação de Risco Cardiovascular na Atenção Primária
 As doenças crônicas não transmissíveis, com ênfase nas cardiopatias, constituem a principal causa de mortalidade na população brasileira.
 - Contexto epidemiológico: O acompanhamento longitudinal na Estratégia Saúde da Família visa estabilizar comorbidades antes da ocorrência de eventos agudos, como infarto agudo do miocárdio ou acidente vascular cerebral.
