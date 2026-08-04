@@ -12,17 +12,22 @@ O projeto visa pesquisar, modelar e validar metodologias analíticas capazes de 
 CDSS-IEEE/
 ├── docs/
 │   ├── research/
-│   │   ├── datasets_sus.md         # Mapeamento de fontes de dados abertos 
-│   │   └── clinical_problem.md     # Levantamento de subproblemas e justificativas epidemiológicas
-│   └── requirements/
-│       └── moscow.md               # Priorização de requisitos da pesquisa e conformidade ética
-└── README.md                       # Apresentação geral do projeto
+│   │   ├── datasets_sus.md              # Mapeamento de fontes de dados abertos (OpenDataSUS, SIH/SUS)
+│   │   ├── clinical_problem.md          # Levantamento de subproblemas e justificativas epidemiológicas
+│   │   ├── matriz_esforco_impacto.md    # Matriz Esforço x Impacto e enquadramento na RAS
+│   │   └── analise_tecnica_datasets.md  # Dicionário verificado de variáveis, features e target
+│   ├── requirements/
+│   │   └── moscow.md                    # Priorização de requisitos da pesquisa e conformidade ética
+│   └── sprints/
+│       ├── semana_01.md                 # Relatório de atividades e artefatos da Semana 01
+│       └── semana_02.md                 # Relatório de atividades e artefatos da Semana 02
+└── README.md                            # Apresentação geral do projeto
 ```
 
 ## Diretrizes de Uso dos Dados
 
-A investigação apoia-se exclusivamente em registros administrativos e epidemiológicos desidentificados disponibilizados pelo Ministério da Saúde, com o intuito de respeitar as normas de privacidade civil e ética em pesquisa médica (seguindo LGPD).
+A investigação apoia-se exclusivamente em registros administrativos e epidemiológicos desidentificados disponibilizados pelo Ministério da Saúde, respeitando integralmente as normas de privacidade civil e ética em pesquisa médica.
 
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de Revisão |
 |---|---|---|---|---|---|
-| 1.0 | Elaboração inicial da apresentação do repositório | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-07-27 | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-07-27 |
+| 1.1 | Atualização da estrutura do repositório incluindo documentação de sprints e análises técnicas | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-03 | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-03 |
