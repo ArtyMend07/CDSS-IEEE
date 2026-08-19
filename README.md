@@ -8,20 +8,29 @@ O projeto visa pesquisar, modelar e validar metodologias analíticas capazes de 
 
 ## Estrutura do Repositório
 
-```text
-CDSS-IEEE/
-├── docs/
-│   ├── research/
-│   │   ├── datasets_sus.md              # Mapeamento de fontes de dados abertos (OpenDataSUS, SIH/SUS)
-│   │   ├── clinical_problem.md          # Levantamento de subproblemas e justificativas epidemiológicas
-│   │   ├── matriz_esforco_impacto.md    # Matriz Esforço x Impacto e enquadramento na RAS
-│   │   └── analise_tecnica_datasets.md  # Dicionário verificado de variáveis, features e target
-│   ├── requirements/
-│   │   └── moscow.md                    # Priorização de requisitos da pesquisa e conformidade ética
-│   └── sprints/
-│       ├── semana_01.md                 # Relatório de atividades e artefatos da Semana 01
-│       └── semana_02.md                 # Relatório de atividades e artefatos da Semana 02
-└── README.md                            # Apresentação geral do projeto
+```mermaid
+graph LR
+    A[CDSS-IEEE] --> B[docs]
+    A --> C[README.md]
+    B --> D[arch/adr]
+    B --> E[research]
+    B --> F[requirements]
+    B --> G[sprints]
+    
+    D --> D1["0001-arquitetura-mlops-first.md"]
+    D --> D2["0002-versionamento-semantico-modelos.md"]
+    D --> D3["0003-framework-mlops-lifecycle.md"]
+    
+    E --> E1["datasets_sus.md"]
+    E --> E2["clinical_problem.md"]
+    E --> E3["matriz_esforco_impacto.md"]
+    E --> E4["analise_tecnica_datasets.md"]
+    
+    F --> F1["moscow.md"]
+    
+    G --> G1["semana_01.md"]
+    G --> G2["semana_02.md"]
+    G --> G3["semana_03.md"]
 ```
 
 ## Diretrizes de Uso dos Dados
@@ -31,3 +40,4 @@ A investigação apoia-se exclusivamente em registros administrativos e epidemio
 | Versão | Descrição | Autor(es) | Data | Revisor(es) | Data de Revisão |
 |---|---|---|---|---|---|
 | 1.1 | Atualização da estrutura do repositório incluindo documentação de sprints e análises técnicas | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-03 | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-03 |
+| 1.2 | Refatoração estrutural da apresentação visual (Mermaid.js) e adição de governança de ADRs MLOps | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-18 | [Artur Mendonça Arruda](https://github.com/ArtyMend07) | 2026-08-18 |
