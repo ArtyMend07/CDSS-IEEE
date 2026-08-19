@@ -12,7 +12,7 @@ O projeto visa pesquisar, modelar e validar metodologias analíticas capazes de 
 graph LR
     A[CDSS-IEEE] --> B[docs]
     A --> C[README.md]
-    B --> D[arch/adr]
+    B --> D[architecture/adr]
     B --> E[research]
     B --> F[requirements]
     B --> G[sprints]
