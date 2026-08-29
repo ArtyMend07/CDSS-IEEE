@@ -31,6 +31,7 @@ graph LR
     G --> G1["semana_01.md"]
     G --> G2["semana_02.md"]
     G --> G3["semana_03.md"]
+    G --> G4["semana_04.md"]
 ```
 
 ## Diretrizes de Uso dos Dados
